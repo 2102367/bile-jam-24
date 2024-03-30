@@ -21,18 +21,18 @@ public class PlayerCollision : MonoBehaviour
     private bool hasJetpack = false;
     public ScriptableStats _jetPack;
 
-    [SerializeField] private TextMeshProUGUI interactText;
-    [SerializeField] private TextMeshProUGUI dialogueText;
+    [SerializeField] private TextMeshProUGUI doorText;
+    [SerializeField] private TextMeshProUGUI signText;
 
     [SerializeField] private PlayerController playerControllerScript;
 
-    private SignText signText;
+    private SignText signTextScript;
 
     private void Awake()
     {
         currentHydrogen = startHydrogen;
-        interactText.gameObject.SetActive(false);
-        dialogueText.gameObject.SetActive(false);
+        doorText.gameObject.SetActive(false);
+        signText.gameObject.SetActive(false);
 
     }
     private void Update()
@@ -71,7 +71,7 @@ public class PlayerCollision : MonoBehaviour
         if (collision.gameObject.CompareTag("door") || collision.gameObject.CompareTag("jetpack") || collision.gameObject.CompareTag("dialogue"))
         {
             //show popup
-            interactText.gameObject.SetActive(true);
+            doorText.gameObject.SetActive(true);
         }
 
         if (collision.gameObject.CompareTag("refill"))
@@ -82,8 +82,8 @@ public class PlayerCollision : MonoBehaviour
 
         if (collision.gameObject.CompareTag("dialogue"))
         {
-            signText = collision.gameObject.GetComponent<SignText>();
-            dialogueText.text = signText.text;
+            signTextScript = collision.gameObject.GetComponent<SignText>();
+            signText.text = signTextScript.text;
         }
     }
 
@@ -112,8 +112,8 @@ public class PlayerCollision : MonoBehaviour
             if (Input.GetKey(KeyCode.E))
             {
                 //show dialogue
-                dialogueText.gameObject.SetActive(true);
-                interactText.gameObject.SetActive(false);
+                signText.gameObject.SetActive(true);
+                doorText.gameObject.SetActive(false);
             }
         }
     }
@@ -123,7 +123,7 @@ public class PlayerCollision : MonoBehaviour
         if (collision.gameObject.CompareTag("door") || collision.gameObject.CompareTag("jetpack") || collision.gameObject.CompareTag("dialogue"))
         {
             //remove popup
-            interactText.gameObject.SetActive(false);
+            doorText.gameObject.SetActive(false);
         }
 
         if (collision.gameObject.CompareTag("refill"))
@@ -134,7 +134,7 @@ public class PlayerCollision : MonoBehaviour
         if (collision.gameObject.CompareTag("dialogue"))
         {
             //hide dialogue
-            dialogueText.gameObject.SetActive(false);
+            signText.gameObject.SetActive(false);
         }
     }
 }
