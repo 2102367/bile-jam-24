@@ -50,7 +50,7 @@ public class PlayerCollision : MonoBehaviour
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); //restart scene on death
         }
 
-        if(Input.GetKeyDown(KeyCode.Space) || hasJetpack) 
+        if(Input.GetKeyDown(KeyCode.Space) && hasJetpack) 
         {
             currentHydrogen -= jetpackCostPerJump;
         }
