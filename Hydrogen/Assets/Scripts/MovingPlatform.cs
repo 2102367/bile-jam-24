@@ -32,6 +32,7 @@ public class MovingPlatform : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, points[i].position, platformVelocity * Time.deltaTime);
     }
 
+    /*
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.transform.position.y > transform.position.y)
@@ -44,6 +45,7 @@ public class MovingPlatform : MonoBehaviour
     {
         collision.transform.SetParent(null);
     }
+    */
 }
 
 
