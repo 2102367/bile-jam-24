@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using TMPro;
 
-public class HydrogenCollision : MonoBehaviour
+public class PlayerCollision : MonoBehaviour
 {
     [SerializeField] private float maxHydrogen;
     private float currentHydrogen;
@@ -14,20 +15,22 @@ public class HydrogenCollision : MonoBehaviour
     [SerializeField] private float hydrogenDecayMulti;
     private float hydrogenMeterValue;
 
+    [SerializeField] private TextMeshProUGUI interactText;
+
     private void Awake()
     {
         currentHydrogen = startHydrogen;
+        interactText.gameObject.SetActive(false);
     }
     private void Update()
     {
         currentHydrogen -= hydrogenDecayMulti * Time.deltaTime;
         hydrogenMeterValue = currentHydrogen / maxHydrogen; //convert current hydrogen to a number between 0-1 for slider
         hydrogenMeter.value = hydrogenMeterValue;
-        print(hydrogenMeterValue);
 
         if (currentHydrogen <= 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); //restart scene on death
         }
     }
 
@@ -37,6 +40,33 @@ public class HydrogenCollision : MonoBehaviour
         {
             currentHydrogen += hydrogenAdd;
             Destroy(collision.gameObject);
+        }
+
+        if (collision.gameObject.CompareTag("door"))
+        {
+            //show popup
+            interactText.gameObject.SetActive(true);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("door"))
+        {
+            print("on door");
+            if (Input.GetKey(KeyCode.E))
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); //go to next level
+            }
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("door"))
+        {
+            //remove popup
+            interactText.gameObject.SetActive(false);
         }
     }
 }
