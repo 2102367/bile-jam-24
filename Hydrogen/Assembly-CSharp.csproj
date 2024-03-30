@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Tarodev 2D Controller\_Scripts\PlayerController.cs" />
+    <Compile Include="Assets\Scripts\SignText.cs" />
     <Compile Include="Assets\Scripts\PlayerCollision.cs" />
     <Compile Include="Assets\Tarodev 2D Controller\_Scripts\ScriptableStats.cs" />
     <Compile Include="Assets\Tarodev 2D Controller\_Scripts\PlayerAnimator.cs" />
