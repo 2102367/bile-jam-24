@@ -1051,6 +1051,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6864655760479007566, guid: 832d484f3001ffe41ae72d5989d7220e, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6976037501584197562, guid: 832d484f3001ffe41ae72d5989d7220e, type: 3}
       propertyPath: m_Name
       value: Sign
@@ -1370,11 +1374,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7340296995034190267, guid: de2547b49395fa14ba66f2ebba169e6f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4
+      value: -3.88
       objectReference: {fileID: 0}
     - target: {fileID: 7340296995034190267, guid: de2547b49395fa14ba66f2ebba169e6f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.01
+      value: -2.1
       objectReference: {fileID: 0}
     - target: {fileID: 7340296995034190267, guid: de2547b49395fa14ba66f2ebba169e6f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1407,6 +1411,18 @@ PrefabInstance:
     - target: {fileID: 7340296995034190267, guid: de2547b49395fa14ba66f2ebba169e6f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157798259049766649, guid: de2547b49395fa14ba66f2ebba169e6f, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157798259049766649, guid: de2547b49395fa14ba66f2ebba169e6f, type: 3}
+      propertyPath: m_Color.g
+      value: 0.9787644
+      objectReference: {fileID: 0}
+    - target: {fileID: 9157798259049766649, guid: de2547b49395fa14ba66f2ebba169e6f, type: 3}
+      propertyPath: m_Color.r
+      value: 0.4584905
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
