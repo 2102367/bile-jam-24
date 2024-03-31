@@ -60,11 +60,11 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\chasePlayer.cs" />
     <Compile Include="Assets\Tarodev 2D Controller\_Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\SignText.cs" />
     <Compile Include="Assets\Scripts\PlayerCollision.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
-    <Compile Include="Assets\chasePlayer.cs" />
     <Compile Include="Assets\Scripts\EnemyBullet.cs" />
     <Compile Include="Assets\Tarodev 2D Controller\_Scripts\ScriptableStats.cs" />
     <Compile Include="Assets\Tarodev 2D Controller\_Scripts\PlayerAnimator.cs" />
