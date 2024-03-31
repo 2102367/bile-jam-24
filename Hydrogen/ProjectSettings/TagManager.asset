@@ -9,6 +9,7 @@ TagManager:
   - refill
   - jetpack
   - dialogue
+  - ContactEnemy
   layers:
   - Default
   - TransparentFX
