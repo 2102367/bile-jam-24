@@ -458,9 +458,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Name 3
-
-'
+  m_text: Denise Mills
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 72022aac958fda547b620090157469e7, type: 2}
   m_sharedMaterial: {fileID: -9021384530357218242, guid: 72022aac958fda547b620090157469e7, type: 2}
@@ -1271,7 +1269,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Name 2
+  m_text: Neve Murchie
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 72022aac958fda547b620090157469e7, type: 2}
   m_sharedMaterial: {fileID: -9021384530357218242, guid: 72022aac958fda547b620090157469e7, type: 2}
@@ -2112,7 +2110,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Name 1
+  m_text: Luca Bellu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 72022aac958fda547b620090157469e7, type: 2}
   m_sharedMaterial: {fileID: -9021384530357218242, guid: 72022aac958fda547b620090157469e7, type: 2}
@@ -2246,7 +2244,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Name 4
+  m_text: 'Adam Polec
 
 
 '
