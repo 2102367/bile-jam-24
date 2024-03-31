@@ -186,3 +186,19 @@ Received Import Request.
 Start importing Assets/randomSprites.png using Guid(24a5d9f72eb8b2b4bae846627acb5616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32535e4481a50935bbc4267c4916ec91') in 0.780386 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 78
+========================================================================
+Received Import Request.
+  Time since last request: 563.678489 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.038101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.086008 seconds.
+  path: Assets/Audio
+  artifactKey: Guid(b627744cb7f3fd24398bf079269bccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio using Guid(b627744cb7f3fd24398bf079269bccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96aa3f952990301e4de9224206cad8f') in 0.020089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
