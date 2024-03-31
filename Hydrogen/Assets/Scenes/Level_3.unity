@@ -349,7 +349,7 @@ PrefabInstance:
       objectReference: {fileID: 1659743995}
     - target: {fileID: 6806405675846490771, guid: 744ace6fb1dce264ba7a29fd38850129, type: 3}
       propertyPath: hydrogenDecayMulti
-      value: 25
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 7719530714629536923, guid: 744ace6fb1dce264ba7a29fd38850129, type: 3}
       propertyPath: m_LocalPosition.x
@@ -421,7 +421,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1778316669936017031, guid: 1f763a4e6e3f0ff4185ba99c84b5ed37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.57
+      value: 0.29
       objectReference: {fileID: 0}
     - target: {fileID: 3114013701134961460, guid: 1f763a4e6e3f0ff4185ba99c84b5ed37, type: 3}
       propertyPath: m_LocalPosition.x
@@ -473,7 +473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6399064450080600974, guid: 1f763a4e6e3f0ff4185ba99c84b5ed37, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8.7
+      value: -6.06
       objectReference: {fileID: 0}
     - target: {fileID: 8319824813201719591, guid: 1f763a4e6e3f0ff4185ba99c84b5ed37, type: 3}
       propertyPath: m_LocalPosition.x
@@ -667,7 +667,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4088106885888618775, guid: 832d484f3001ffe41ae72d5989d7220e, type: 3}
       propertyPath: text
-      value: If you can't reach the platform, try using coyote time
+      value: Hydrogen makes up around 75% of all matter
       objectReference: {fileID: 0}
     - target: {fileID: 5688117869598794724, guid: 832d484f3001ffe41ae72d5989d7220e, type: 3}
       propertyPath: m_LocalPosition.x
