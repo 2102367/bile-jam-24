@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8422602334600182984}
   - component: {fileID: 5455816261632617665}
   m_Layer: 0
-  m_Name: BulletParent
+  m_Name: ObjectDetector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -91,8 +91,8 @@ GameObject:
   - component: {fileID: -8739639383817191456}
   - component: {fileID: 3073008433321988074}
   m_Layer: 0
-  m_Name: EnemyTypeOne
-  m_TagString: Untagged
+  m_Name: EnemyTypeTwo
+  m_TagString: ContactEnemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -154,7 +154,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0f71341b2959db4418ebe7d80c7c0bae, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 01c25e614ed134f41b7356d1a5319d27, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
