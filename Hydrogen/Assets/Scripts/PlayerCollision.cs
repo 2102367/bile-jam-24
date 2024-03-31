@@ -45,7 +45,7 @@ public class PlayerCollision : MonoBehaviour
         hydrogenMeterValue = currentHydrogen / maxHydrogen; //convert current hydrogen to a number between 0-1 for slider
         hydrogenMeter.value = hydrogenMeterValue;
 
-        if (currentHydrogen <= 0)
+        if (currentHydrogen <= 0 || Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); //restart scene on death
         }
