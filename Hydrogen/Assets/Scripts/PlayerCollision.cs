@@ -73,7 +73,7 @@ public class PlayerCollision : MonoBehaviour
             Destroy(collision.gameObject);
         }
 
-        if (collision.gameObject.CompareTag("door") || collision.gameObject.CompareTag("jetpack") || collision.gameObject.CompareTag("dialogue"))
+        if (collision.gameObject.CompareTag("door") || collision.gameObject.CompareTag("dialogue"))
         {
             //show popup
             doorText.gameObject.SetActive(true);
@@ -87,8 +87,16 @@ public class PlayerCollision : MonoBehaviour
 
         if (collision.gameObject.CompareTag("dialogue"))
         {
+            signText.gameObject.SetActive(false);
             signTextScript = collision.gameObject.GetComponent<SignText>();
             signText.text = signTextScript.text;
+        }
+
+        if (collision.gameObject.CompareTag("jetpack"))
+        {
+            hasJetpack = true;
+            playerControllerScript._stats = _jetPack;
+            Destroy(collision.gameObject);
         }
     }
 
@@ -99,16 +107,6 @@ public class PlayerCollision : MonoBehaviour
             if (Input.GetKey(KeyCode.E))
             {
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1); //go to next level
-            }
-        }
-
-        if (collision.gameObject.CompareTag("jetpack"))
-        {
-            if (Input.GetKey(KeyCode.E))
-            {
-                hasJetpack = true;
-                playerControllerScript._stats = _jetPack;
-                Destroy(collision.gameObject);
             }
         }
 
@@ -126,7 +124,7 @@ public class PlayerCollision : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("door") || collision.gameObject.CompareTag("jetpack") || collision.gameObject.CompareTag("dialogue"))
+        if (collision.gameObject.CompareTag("door") || collision.gameObject.CompareTag("dialogue"))
         {
             //remove popup
             doorText.gameObject.SetActive(false);
@@ -137,16 +135,12 @@ public class PlayerCollision : MonoBehaviour
             isDraining = true;
         }
 
-        if (collision.gameObject.CompareTag("dialogue"))
-        {
-            //hide dialogue
-            signText.gameObject.SetActive(false);
-        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision){
-        if (collision.gameObject.CompareTag("ContactEnemy")){ //currently takes two collisions
-            currentHydrogen-=25;
+        if (collision.gameObject.CompareTag("ContactEnemy")) //currently takes two collisions
+        { 
+            currentHydrogen -= 20f;
         }
     }
 }

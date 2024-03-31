@@ -89,7 +89,7 @@ GameObject:
   - component: {fileID: 1196078408509483545}
   - component: {fileID: -1155948230799450847}
   - component: {fileID: -8739639383817191456}
-  - component: {fileID: 3073008433321988074}
+  - component: {fileID: 7761417460716376240}
   m_Layer: 0
   m_Name: EnemyTypeOne
   m_TagString: Untagged
@@ -236,8 +236,8 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!114 &3073008433321988074
+  m_Constraints: 4
+--- !u!114 &7761417460716376240
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -246,9 +246,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 8535002221473128036}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf0acfc1bcd2d5c4ea7fabd5e9eaf337, type: 3}
+  m_Script: {fileID: 11500000, guid: a26be3aeac39fa74982032f679f91a46, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  speed: 0
-  jumpForce: 0
+  shootRange: 5
+  bullet: {fileID: 7842561586802521014, guid: c8efbc561c3d8564da5ea0ad5c94f04c, type: 3}
+  bulletParent: {fileID: 2089107457304279326}
+  fireRate: 1
+  speed: 5
