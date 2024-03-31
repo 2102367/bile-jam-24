@@ -202,3 +202,11 @@ Received Import Request.
 Start importing Assets/Audio using Guid(b627744cb7f3fd24398bf079269bccfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c96aa3f952990301e4de9224206cad8f') in 0.020089 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 871.851744 seconds.
+  path: Assets/Audio/game-music-loop-5-144569.mp3
+  artifactKey: Guid(cbee25c437edaa44589da6a6b92b46b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/game-music-loop-5-144569.mp3 using Guid(cbee25c437edaa44589da6a6b92b46b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86f1ff2f01c2dc80963849001b7c8faf') in 1.299054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
