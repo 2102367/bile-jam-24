@@ -14,19 +14,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   PlayerLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   SnapInput: 1
   VerticalDeadZoneThreshold: 0.3
   HorizontalDeadZoneThreshold: 0.1
-  MaxSpeed: 14
-  Acceleration: 120
-  GroundDeceleration: 60
-  AirDeceleration: 30
+  MaxSpeed: 7
+  Acceleration: 60
+  GroundDeceleration: 30
+  AirDeceleration: 15
   GroundingForce: -1.5
   GrounderDistance: 0.05
-  JumpPower: 50
+  JumpPower: 22
   MaxFallSpeed: 20
-  FallAcceleration: 110
-  JumpEndEarlyGravityModifier: 2
-  CoyoteTime: 0.2
+  FallAcceleration: 40
+  JumpEndEarlyGravityModifier: 1.5
+  CoyoteTime: 0.4
   JumpBuffer: 0.2

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1195566970933831057}
   - component: {fileID: 7726193447764470270}
   - component: {fileID: 4883631296059625166}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Launch Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4899,7 +4899,7 @@ GameObject:
   - component: {fileID: 3167514398892983582}
   - component: {fileID: 2661161370518434287}
   - component: {fileID: 4784570809121735658}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Move Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9727,7 +9727,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5192390612167475487}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9744,7 +9744,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 8529549585835914181}
@@ -9766,7 +9766,7 @@ GameObject:
   - component: {fileID: 7348783553625726298}
   - component: {fileID: 4398063019378402181}
   - component: {fileID: 2652701221072102073}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Visual
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9923,7 +9923,7 @@ GameObject:
   - component: {fileID: 8529549585835914181}
   - component: {fileID: 6828835461574232033}
   - component: {fileID: 7100320715727267293}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Jump Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14811,7 +14811,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7840314228121987530}
   - component: {fileID: 4185401887191245127}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: TrailRenderer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14872,10 +14872,10 @@ TrailRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Time: 1
+  m_SortingLayerID: -147764813
+  m_SortingLayer: -1
+  m_SortingOrder: 1
+  m_Time: 0.1
   m_PreviewTimeScale: 1
   m_Parameters:
     serializedVersion: 3
@@ -14957,7 +14957,7 @@ GameObject:
   - component: {fileID: 1127673084828640895}
   - component: {fileID: 1180440369437548720}
   - component: {fileID: 4550112842263621376}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Land Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19845,7 +19845,7 @@ GameObject:
   - component: {fileID: 8916226098507740787}
   - component: {fileID: 8849202544461952454}
   - component: {fileID: 6728666204455657202}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Dash Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -24675,7 +24675,7 @@ GameObject:
   - component: {fileID: 1191135165794698976}
   - component: {fileID: 7068335880602375459}
   - component: {fileID: 775293727165951607}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Double Jump Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29561,7 +29561,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6026991215659507420}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Dash Ring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -29595,7 +29595,7 @@ GameObject:
   - component: {fileID: 489404843794605863}
   - component: {fileID: 1329351638478304573}
   - component: {fileID: 8265235976668977082}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: DashRing Particles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34483,7 +34483,7 @@ GameObject:
   - component: {fileID: 4095654269733036220}
   - component: {fileID: 1991194338168504038}
   - component: {fileID: 7559483166518647362}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34546,7 +34546,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 9ec0ca269ec0b4f4fa12877c83d9dd88, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a0822119c82d9147a53adb6010eee6a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -34591,7 +34591,7 @@ GameObject:
   - component: {fileID: 9057274446690196758}
   - component: {fileID: 3189597337866380903}
   - component: {fileID: 6806405675846490771}
-  m_Layer: 6
+  m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -34686,7 +34686,7 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.7}
+  m_Offset: {x: 0, y: 0.2}
   m_Size: {x: 0.9, y: 1.4}
   m_Direction: 0
 --- !u!114 &6806405675846490771
