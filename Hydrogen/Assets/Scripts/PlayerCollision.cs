@@ -17,7 +17,6 @@ public class PlayerCollision : MonoBehaviour
     private float hydrogenMeterValue;
     [SerializeField] private float jetpackCostPerJump;
     private bool isDraining = true;
-    private float health = 3f;
 
     private bool hasJetpack = false;
     public ScriptableStats _jetPack;
@@ -141,10 +140,7 @@ public class PlayerCollision : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision){
         if (collision.gameObject.CompareTag("ContactEnemy")){ //currently takes two collisions
-            health-=1;
-            if(health<=0){
-                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); //restart scene on death
-            }
+            currentHydrogen-=25;
         }
     }
 }
