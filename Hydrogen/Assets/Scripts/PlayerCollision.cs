@@ -28,6 +28,8 @@ public class PlayerCollision : MonoBehaviour
 
     private SignText signTextScript;
 
+    [SerializeField] private AudioSource computer, jetPackJump, hydrogen;
+
     private void Awake()
     {
         currentHydrogen = startHydrogen;
@@ -53,6 +55,7 @@ public class PlayerCollision : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space) && hasJetpack) 
         {
             currentHydrogen -= jetpackCostPerJump;
+            jetPackJump.Play();
         }
     }
 
@@ -60,6 +63,8 @@ public class PlayerCollision : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("hydrogen"))
         {
+            hydrogen.Play();
+
             currentHydrogen += hydrogenAdd;
             if (currentHydrogen > maxHydrogen)
             {
@@ -111,6 +116,7 @@ public class PlayerCollision : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.E))
             {
+                computer.Play();
                 //show dialogue
                 signText.gameObject.SetActive(true);
                 doorText.gameObject.SetActive(false);
