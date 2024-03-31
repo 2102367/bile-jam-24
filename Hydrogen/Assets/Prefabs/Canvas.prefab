@@ -140,10 +140,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '[Sign Text]'
+  m_text: '[SIGN TEXT]'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7873858dcc068fb40b265ec976eaf4e2, type: 2}
-  m_sharedMaterial: {fileID: -1540811440830099589, guid: 7873858dcc068fb40b265ec976eaf4e2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 72022aac958fda547b620090157469e7, type: 2}
+  m_sharedMaterial: {fileID: -9021384530357218242, guid: 72022aac958fda547b620090157469e7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -173,13 +173,13 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
-  m_characterSpacing: 0
+  m_characterSpacing: 2
   m_wordSpacing: 0
-  m_lineSpacing: 0
+  m_lineSpacing: 30
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
@@ -544,8 +544,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: '[E]'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7873858dcc068fb40b265ec976eaf4e2, type: 2}
-  m_sharedMaterial: {fileID: -1540811440830099589, guid: 7873858dcc068fb40b265ec976eaf4e2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 72022aac958fda547b620090157469e7, type: 2}
+  m_sharedMaterial: {fileID: -9021384530357218242, guid: 72022aac958fda547b620090157469e7, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -575,7 +575,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 16
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
