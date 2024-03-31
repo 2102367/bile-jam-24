@@ -133,7 +133,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3140432568971382884, guid: 6838f488253459444a705d26311dfeef, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.773294
+      value: 37.242706
       objectReference: {fileID: 0}
     - target: {fileID: 3140432568971382884, guid: 6838f488253459444a705d26311dfeef, type: 3}
       propertyPath: m_LocalPosition.y
@@ -199,11 +199,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8774408866119591509, guid: 2c97711684073514a847a53779acbdb0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27.6116
+      value: 60.41
       objectReference: {fileID: 0}
     - target: {fileID: 8774408866119591509, guid: 2c97711684073514a847a53779acbdb0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.0813246
+      value: -4.26
       objectReference: {fileID: 0}
     - target: {fileID: 8774408866119591509, guid: 2c97711684073514a847a53779acbdb0, type: 3}
       propertyPath: m_LocalPosition.z
@@ -270,6 +270,10 @@ PrefabInstance:
       propertyPath: hydrogenMeter
       value: 
       objectReference: {fileID: 1659743995}
+    - target: {fileID: 6806405675846490771, guid: 744ace6fb1dce264ba7a29fd38850129, type: 3}
+      propertyPath: hydrogenDecayMulti
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 7719530714629536923, guid: 744ace6fb1dce264ba7a29fd38850129, type: 3}
       propertyPath: m_LocalPosition.x
       value: -13.442789
@@ -356,7 +360,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5688117869598794724, guid: 832d484f3001ffe41ae72d5989d7220e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.930592
+      value: 37.4
       objectReference: {fileID: 0}
     - target: {fileID: 5688117869598794724, guid: 832d484f3001ffe41ae72d5989d7220e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -575,8 +579,8 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4088106885888618775, guid: 832d484f3001ffe41ae72d5989d7220e, type: 3}
       propertyPath: text
-      value: If your hydrogen is running low, pick up a hydrogen fuel cell to add
-        to the meter
+      value: IF YOUR HYDROGEN IS RUNNING LOW, PICK UP A HYDROGEN FUEL CELL TO ADD
+        TO THE METER
       objectReference: {fileID: 0}
     - target: {fileID: 5688117869598794724, guid: 832d484f3001ffe41ae72d5989d7220e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -839,8 +843,8 @@ Transform:
   m_GameObject: {fileID: 2130801267}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.83, y: -7.02, z: 0}
-  m_LocalScale: {x: 43.736877, y: 3.4051, z: 1}
+  m_LocalPosition: {x: 23.1879, y: -7.02, z: 0}
+  m_LocalScale: {x: 76.452065, y: 3.4051, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
