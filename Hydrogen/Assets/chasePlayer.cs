@@ -23,11 +23,11 @@ public class chasePlayer : MonoBehaviour
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
 
         // Check for obstacles and jump
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, distance);
-        if (hit.collider != null && hit.collider.CompareTag("Obstacle"))
-        {
-            Jump();
-        }
+        // RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, distance);
+        // if (hit.collider != null && hit.collider.CompareTag("Obstacle"))
+        // {
+        //     Jump();
+        // }
     }
 
     void Jump()
